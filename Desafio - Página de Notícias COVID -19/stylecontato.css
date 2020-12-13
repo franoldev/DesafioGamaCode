@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url(coronavirus.jpg) repeat-x;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 150px;
+    padding-top: 35px;
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    text-indent: 30px;
+    color: #fff;
+    text-shadow: #ff0000 2px 2px 5px;
+}
+
+#menu-site {
+    display: flex;
+}
+
+#header a {
+    margin-top: 30px;
+    background: url(divisor.png) no-repeat left center;
+    background-color: #b10333;
+    display: flex;
+    justify-content: center;
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;   
+} 
+
+#header a:hover {
+    color: #59001a;  
+ }
+
+ body.principal a#principal,
+ body.home a#home,
+ body.sobre a#sobre,
+ body.contato a#contato,
+ body.blog a#blog {
+     color: #fff;
+     background: #de003e;
+     cursor: text; 
+ }
+
+ footer {
+    padding: 10px;
+    position: absolute;
+    top: 110%;
+    transform: translateY(-50%);
+    transform: translateX(45%);
+}
+
+#rodape-conteudo {
+    width: 960px;
+    margin: 0;
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
+}
+
+/**Início das Configurações do Formulário Externo**/
+
+ @font-face {
+    font-display: block;
+    font-family: 'Roboto', sans-serif;
+    src: url(https://assets.sendinblue.com/font/Roboto/Latin/normal/normal/7529907e9eaf8ebb5220c5f9850e3811.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/normal/normal/25c678feafdc175a70922a116c9be3e7.woff) format("woff")
+  }
+
+  @font-face {
+    font-display: fallback;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    src: url(https://assets.sendinblue.com/font/Roboto/Latin/medium/normal/6e9caeeafb1f3491be3e32744bc30440.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/medium/normal/71501f0d8d5aa95960f6475d5487d4c2.woff) format("woff")
+  }
+
+  @font-face {
+    font-display: fallback;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    src: url(https://assets.sendinblue.com/font/Roboto/Latin/bold/normal/3ef7cf158f310cf752d5ad08cd0e7e60.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/bold/normal/ece3a1d82f18b60bcce0211725c476aa.woff) format("woff")
+  }
+
+  #sib-container input:-ms-input-placeholder {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: #c0ccda;
+  }
+
+  #sib-container input::placeholder {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: #c0ccda;
+  }
+
+  #sib-container textarea::placeholder {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: #c0ccda;
+  }
+
+  .sib-form {
+    transform: translateY(5%);
+  }
+
+  .sib-form button{
+    background: #b10333;
+    color: #fff;
+    font-size: 24px;
+}
+  /**Fim das Configurações do Formulário Externo**/
